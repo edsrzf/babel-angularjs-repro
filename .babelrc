@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    "angularjs-annotate",
+    "@babel/transform-modules-commonjs",
+    "@babel/transform-classes"
+  ]
+}

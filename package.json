@@ -1,0 +1,21 @@
+{
+  "name": "babel-repro",
+  "version": "1.0.0",
+  "description": "Reproduction of a babel issue",
+  "main": "index.js",
+  "author": "Evan Shaw",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "repro": "babel index.js > compiled.js && node compiled.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.56",
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "babel-plugin-angularjs-annotate": "^0.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
